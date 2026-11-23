@@ -6,7 +6,7 @@ export default function App(){
     return(
         <BrowserRouter>
             <Routes>
-                 {/* <Route path="/user" element={<User/>}/>  */}
+                <Route path="/user" element={<User/>}/> 
                 <Route path="/" element={<Pwd/>}/>
             </Routes>
         
